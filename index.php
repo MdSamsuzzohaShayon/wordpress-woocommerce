@@ -10,17 +10,17 @@
     <meta name="robots" content="all">
     <title>eCommerce premium HTML5 & CSS3 Template</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/blue.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.transitions.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/rateit.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/blue.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/rateit.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap-select.min.css">
 
     <!-- Icons/Glyphs -->
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/font-awesome.css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-10 logo-holder">
                         <div class="logo">
-                            <a href="home.html"> <img src="assets/images/logo.png" alt="logo"> </a>
+                            <a href="home.html"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="logo"> </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-2 animate-dropdown top-cart-row">
@@ -69,7 +69,7 @@
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="assets/images/cart.jpg" alt=""></a>
+                                                    <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cart.jpg" alt=""></a>
                                                 </div>
                                             </div>
                                             <div class="col-xs-7">
@@ -175,7 +175,7 @@
                                                                 </ul>
                                                             </div>
                                                             <div class="col-xs-12 col-sm-12 col-md-4 col-menu custom-banner">
-                                                                <a href="#"><img alt="" src="assets/images/banners/banner-side.png"></a>
+                                                                <a href="#"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/banners/banner-side.png"></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -265,7 +265,7 @@
                     </div>
                     <div id="hero">
                         <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-                            <div class="item" style="background-image: url(assets/images/sliders/01.jpg);">
+                            <div class="item" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/01.jpg);">
                                 <div class="container-fluid">
                                     <div class="caption bg-color vertical-center text-left">
                                         <div class="slider-header fadeInDown-1">Top Brands</div>
@@ -275,7 +275,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item" style="background-image: url(assets/images/sliders/02.jpg);">
+                            <div class="item" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/02.jpg);">
                                 <div class="container-fluid">
                                     <div class="caption bg-color vertical-center text-left">
                                         <div class="slider-header fadeInDown-1">Spring 2016</div>
@@ -308,7 +308,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p1.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p1.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -356,7 +356,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p2.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p2.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -404,7 +404,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p4.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p4.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -452,7 +452,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p3.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p3.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -500,7 +500,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p30.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p30.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -548,7 +548,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p29.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p29.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -605,7 +605,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p5.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p5.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -653,7 +653,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p6.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p6.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -701,7 +701,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p7.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p7.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -749,7 +749,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p8.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p8.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -797,7 +797,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p9.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p9.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -845,7 +845,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p10.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p10.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -902,7 +902,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p11.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p11.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -950,7 +950,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p12.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p12.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -998,7 +998,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p13.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p13.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1046,7 +1046,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p14.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p14.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1094,7 +1094,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p15.jpg" alt="image"></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p15.jpg" alt="image"></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1142,7 +1142,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p16.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p16.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1199,7 +1199,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p18.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p18.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1247,7 +1247,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p18.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p18.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1295,7 +1295,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p17.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p17.jpg" alt=""></a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1343,7 +1343,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p16.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p16.jpg" alt=""></a>
                                                         </div>
                                                         <div class="tag new"><span>new</span></div>
                                                     </div>
@@ -1377,7 +1377,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p13.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p13.jpg" alt=""></a>
                                                         </div>
                                                         <div class="tag new"><span>new</span></div>
                                                     </div>
@@ -1411,7 +1411,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html"><img src="assets/images/products/p14.jpg" alt=""></a>
+                                                            <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p14.jpg" alt=""></a>
                                                         </div>
                                                         <div class="tag hot"><span>hot</span></div>
                                                     </div>
@@ -1453,7 +1453,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p5.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p5.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1501,7 +1501,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p6.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p6.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1549,7 +1549,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/blank.gif" data-echo="assets/images/products/p7.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p7.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1597,7 +1597,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p8.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p8.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1645,7 +1645,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p9.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p9.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1693,7 +1693,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p10.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p10.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -1751,7 +1751,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p20.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p20.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -1781,71 +1781,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p21.jpg" alt=""> </a>
-                                                            </div>
-                                                            <!-- /.image -->
-
-                                                        </div>
-                                                        <!-- /.product-image -->
-                                                    </div>
-                                                    <!-- /.col -->
-                                                    <div class="col2 col-xs-7">
-                                                        <div class="product-info">
-                                                            <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
-                                                            <div class="rating rateit-small"></div>
-                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                                                            <!-- /.product-price -->
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.col -->
-                                                </div>
-                                                <!-- /.product-micro-row -->
-                                            </div>
-                                            <!-- /.product-micro -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="products best-product">
-                                        <div class="product">
-                                            <div class="product-micro">
-                                                <div class="row product-micro-row">
-                                                    <div class="col col-xs-5">
-                                                        <div class="product-image">
-                                                            <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p22.jpg" alt=""> </a>
-                                                            </div>
-                                                            <!-- /.image -->
-
-                                                        </div>
-                                                        <!-- /.product-image -->
-                                                    </div>
-                                                    <!-- /.col -->
-                                                    <div class="col2 col-xs-7">
-                                                        <div class="product-info">
-                                                            <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
-                                                            <div class="rating rateit-small"></div>
-                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                                                            <!-- /.product-price -->
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.col -->
-                                                </div>
-                                                <!-- /.product-micro-row -->
-                                            </div>
-                                            <!-- /.product-micro -->
-
-                                        </div>
-                                        <div class="product">
-                                            <div class="product-micro">
-                                                <div class="row product-micro-row">
-                                                    <div class="col col-xs-5">
-                                                        <div class="product-image">
-                                                            <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p23.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p21.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -1879,7 +1815,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p24.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p22.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -1909,7 +1845,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p25.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p23.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -1943,7 +1879,71 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p26.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p24.jpg" alt=""> </a>
+                                                            </div>
+                                                            <!-- /.image -->
+
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col2 col-xs-7">
+                                                        <div class="product-info">
+                                                            <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                                                            <!-- /.product-price -->
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-micro-row -->
+                                            </div>
+                                            <!-- /.product-micro -->
+
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-micro">
+                                                <div class="row product-micro-row">
+                                                    <div class="col col-xs-5">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p25.jpg" alt=""> </a>
+                                                            </div>
+                                                            <!-- /.image -->
+
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col2 col-xs-7">
+                                                        <div class="product-info">
+                                                            <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                                                            <!-- /.product-price -->
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-micro-row -->
+                                            </div>
+                                            <!-- /.product-micro -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="products best-product">
+                                        <div class="product">
+                                            <div class="product-micro">
+                                                <div class="row product-micro-row">
+                                                    <div class="col col-xs-5">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p26.jpg" alt=""> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1963,7 +1963,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p27.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p27.jpg" alt=""> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1991,7 +1991,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p19.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p19.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2039,7 +2039,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p28.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p28.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2087,7 +2087,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p30.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p30.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2135,7 +2135,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p1.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p1.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2183,7 +2183,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p2.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p2.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2231,7 +2231,7 @@
                                     <div class="product">
                                         <div class="product-image">
                                             <div class="image">
-                                                <a href="detail.html"><img src="assets/images/products/p3.jpg" alt=""></a>
+                                                <a href="detail.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p3.jpg" alt=""></a>
                                             </div>
                                             <!-- /.image -->
 
@@ -2284,7 +2284,7 @@
                                     <div class="blog-post">
                                         <div class="blog-post-image">
                                             <div class="image">
-                                                <a href="blog.html"><img src="assets/images/blog-post/post1.jpg" alt=""></a>
+                                                <a href="blog.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog-post/post1.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="blog-post-info text-left">
@@ -2298,7 +2298,7 @@
                                     <div class="blog-post">
                                         <div class="blog-post-image">
                                             <div class="image">
-                                                <a href="blog.html"><img src="assets/images/blog-post/post2.jpg" alt=""></a>
+                                                <a href="blog.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog-post/post2.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="blog-post-info text-left">
@@ -2312,7 +2312,7 @@
                                     <div class="blog-post">
                                         <div class="blog-post-image">
                                             <div class="image">
-                                                <a href="blog.html"><img src="assets/images/blog-post/post1.jpg" alt=""></a>
+                                                <a href="blog.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog-post/post1.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="blog-post-info text-left">
@@ -2326,7 +2326,7 @@
                                     <div class="blog-post">
                                         <div class="blog-post-image">
                                             <div class="image">
-                                                <a href="blog.html"><img src="assets/images/blog-post/post2.jpg" alt=""></a>
+                                                <a href="blog.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog-post/post2.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="blog-post-info text-left">
@@ -2340,7 +2340,7 @@
                                     <div class="blog-post">
                                         <div class="blog-post-image">
                                             <div class="image">
-                                                <a href="blog.html"><img src="assets/images/blog-post/post1.jpg" alt=""></a>
+                                                <a href="blog.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog-post/post1.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="blog-post-info text-left">
@@ -2384,7 +2384,7 @@
                             <div class="item">
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
-                                        <div class="image"> <img src="assets/images/hot-deals/p25.jpg" alt=""> </div>
+                                        <div class="image"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hot-deals/p25.jpg" alt=""> </div>
                                         <div class="sale-offer-tag"><span>49%<br>
                     off</span></div>
                                         <div class="timing-wrapper">
@@ -2428,7 +2428,7 @@
                             <div class="item">
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
-                                        <div class="image"> <img src="assets/images/hot-deals/p5.jpg" alt=""> </div>
+                                        <div class="image"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hot-deals/p5.jpg" alt=""> </div>
                                         <div class="sale-offer-tag"><span>35%<br>
                     off</span></div>
                                         <div class="timing-wrapper">
@@ -2472,7 +2472,7 @@
                             <div class="item">
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
-                                        <div class="image"> <img src="assets/images/hot-deals/p10.jpg" alt=""> </div>
+                                        <div class="image"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hot-deals/p10.jpg" alt=""> </div>
                                         <div class="sale-offer-tag"><span>35%<br>
                     off</span></div>
                                         <div class="timing-wrapper">
@@ -2532,7 +2532,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p30.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p30.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2562,7 +2562,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p29.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p29.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2592,101 +2592,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p28.jpg" alt=""> </a>
-                                                            </div>
-                                                            <!-- /.image -->
-
-                                                        </div>
-                                                        <!-- /.product-image -->
-                                                    </div>
-                                                    <!-- /.col -->
-                                                    <div class="col col-xs-7">
-                                                        <div class="product-info">
-                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                            <div class="rating rateit-small"></div>
-                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                                                            <!-- /.product-price -->
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.col -->
-                                                </div>
-                                                <!-- /.product-micro-row -->
-                                            </div>
-                                            <!-- /.product-micro -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="products special-product">
-                                        <div class="product">
-                                            <div class="product-micro">
-                                                <div class="row product-micro-row">
-                                                    <div class="col col-xs-5">
-                                                        <div class="product-image">
-                                                            <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p27.jpg" alt=""> </a>
-                                                            </div>
-                                                            <!-- /.image -->
-
-                                                        </div>
-                                                        <!-- /.product-image -->
-                                                    </div>
-                                                    <!-- /.col -->
-                                                    <div class="col col-xs-7">
-                                                        <div class="product-info">
-                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                            <div class="rating rateit-small"></div>
-                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                                                            <!-- /.product-price -->
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.col -->
-                                                </div>
-                                                <!-- /.product-micro-row -->
-                                            </div>
-                                            <!-- /.product-micro -->
-
-                                        </div>
-                                        <div class="product">
-                                            <div class="product-micro">
-                                                <div class="row product-micro-row">
-                                                    <div class="col col-xs-5">
-                                                        <div class="product-image">
-                                                            <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p26.jpg" alt=""> </a>
-                                                            </div>
-                                                            <!-- /.image -->
-
-                                                        </div>
-                                                        <!-- /.product-image -->
-                                                    </div>
-                                                    <!-- /.col -->
-                                                    <div class="col col-xs-7">
-                                                        <div class="product-info">
-                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                            <div class="rating rateit-small"></div>
-                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                                                            <!-- /.product-price -->
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.col -->
-                                                </div>
-                                                <!-- /.product-micro-row -->
-                                            </div>
-                                            <!-- /.product-micro -->
-
-                                        </div>
-                                        <div class="product">
-                                            <div class="product-micro">
-                                                <div class="row product-micro-row">
-                                                    <div class="col col-xs-5">
-                                                        <div class="product-image">
-                                                            <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p25.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p28.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2720,7 +2626,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p24.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p27.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2750,7 +2656,101 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p23.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p26.jpg" alt=""> </a>
+                                                            </div>
+                                                            <!-- /.image -->
+
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col col-xs-7">
+                                                        <div class="product-info">
+                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                                                            <!-- /.product-price -->
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-micro-row -->
+                                            </div>
+                                            <!-- /.product-micro -->
+
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-micro">
+                                                <div class="row product-micro-row">
+                                                    <div class="col col-xs-5">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p25.jpg" alt=""> </a>
+                                                            </div>
+                                                            <!-- /.image -->
+
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col col-xs-7">
+                                                        <div class="product-info">
+                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                                                            <!-- /.product-price -->
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-micro-row -->
+                                            </div>
+                                            <!-- /.product-micro -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="products special-product">
+                                        <div class="product">
+                                            <div class="product-micro">
+                                                <div class="row product-micro-row">
+                                                    <div class="col col-xs-5">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p24.jpg" alt=""> </a>
+                                                            </div>
+                                                            <!-- /.image -->
+
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col col-xs-7">
+                                                        <div class="product-info">
+                                                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                                                            <!-- /.product-price -->
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-micro-row -->
+                                            </div>
+                                            <!-- /.product-micro -->
+
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-micro">
+                                                <div class="row product-micro-row">
+                                                    <div class="col col-xs-5">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p23.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2779,7 +2779,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p22.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p22.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2821,7 +2821,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p28.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p28.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2851,7 +2851,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p15.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p15.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2881,7 +2881,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p26.jpg" alt="image"> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p26.jpg" alt="image"> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2915,7 +2915,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p18.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p18.jpg" alt=""> </a>
                                                             </div>
                                                             <!-- /.image -->
 
@@ -2939,7 +2939,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p17.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p17.jpg" alt=""> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2960,7 +2960,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p16.jpg" alt=""> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p16.jpg" alt=""> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2984,7 +2984,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p15.jpg" alt="images">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p15.jpg" alt="images">
                                                                     <div class="zoom-overlay"></div>
                                                                 </a>
                                                             </div>
@@ -3007,7 +3007,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p14.jpg" alt="">
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p14.jpg" alt="">
                                                                     <div class="zoom-overlay"></div>
                                                                 </a>
                                                             </div>
@@ -3030,7 +3030,7 @@
                                                     <div class="col col-xs-5">
                                                         <div class="product-image">
                                                             <div class="image">
-                                                                <a href="#"> <img src="assets/images/products/p13.jpg" alt="image"> </a>
+                                                                <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/products/p13.jpg" alt="image"> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3065,18 +3065,18 @@
                     <div class="sidebar-widget  wow fadeInUp outer-top-vs ">
                         <div id="advertisement" class="advertisement">
                             <div class="item">
-                                <div class="avatar"><img src="assets/images/testimonials/member1.png" alt="Image"></div>
+                                <div class="avatar"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/member1.png" alt="Image"></div>
                                 <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                                 <div class="clients_author">John Doe <span>Abc Company</span> </div>
                             </div>
 
                             <div class="item">
-                                <div class="avatar"><img src="assets/images/testimonials/member3.png" alt="Image"></div>
+                                <div class="avatar"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/member3.png" alt="Image"></div>
                                 <div class="testimonials"><em>"</em>Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                                 <div class="clients_author">Stephen Doe <span>Xperia Designs</span> </div>
                             </div>
                             <div class="item">
-                                <div class="avatar"><img src="assets/images/testimonials/member2.png" alt="Image"></div>
+                                <div class="avatar"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/member2.png" alt="Image"></div>
                                 <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                                 <div class="clients_author">Saraha Smith <span>Datsun &amp; Co</span> </div>
                             </div>
@@ -3090,52 +3090,52 @@
                 <div class="logo-slider-inner">
                     <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
                         <div class="item m-t-15">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand1.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item m-t-10">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand2.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand3.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand4.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand5.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand6.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand2.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand4.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand1.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
 
                         <div class="item">
-                            <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a>
+                            <a href="#" class="image"> <img data-echo="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/brands/brand5.png" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blank.gif" alt=""> </a>
                         </div>
                         <!--/.item-->
                     </div>
@@ -3254,11 +3254,11 @@
                 <div class="col-xs-12 col-sm-6 no-padding">
                     <div class="clearfix payment-methods">
                         <ul>
-                            <li><img src="assets/images/payments/1.png" alt=""></li>
-                            <li><img src="assets/images/payments/2.png" alt=""></li>
-                            <li><img src="assets/images/payments/3.png" alt=""></li>
-                            <li><img src="assets/images/payments/4.png" alt=""></li>
-                            <li><img src="assets/images/payments/5.png" alt=""></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/payments/1.png" alt=""></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/payments/2.png" alt=""></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/payments/3.png" alt=""></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/payments/4.png" alt=""></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/payments/5.png" alt=""></li>
                         </ul>
                     </div>
                     <!-- /.payment-methods -->
@@ -3267,18 +3267,18 @@
         </div>
     </footer>
     <!-- JavaScripts placed at the end of the document-->
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/echo.min.js"></script>
-    <script src="assets/js/jquery.easing-1.3.min.js"></script>
-    <script src="assets/js/bootstrap-slider.min.js"></script>
-    <script src="assets/js/jquery.rateit.min.js"></script>
-    <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-1.11.1.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/echo.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.easing-1.3.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap-slider.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.rateit.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/lightbox.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap-select.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/wow.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/scripts.js"></script>
 </body>
 
 </html>
