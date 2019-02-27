@@ -22,8 +22,11 @@
  19. title```<title><?php bloginfo("name"); ?></title>``` [know more about bloginfo](https://developer.wordpress.org/reference/functions/get_bloginfo/)
  20. create **functions.php** in root [*know more*](https://developer.wordpress.org/themes/basics/theme-functions/)
  21. dynamic title from **functions.php**  ```add_theme_support( "title-tag" )``` [**know more**](https://codex.wordpress.org/Theme_Features)
- 22. secure uri ```esc_url(get_stylesheet_directory_uri());``` [know more](https://codex.wordpress.org/Function_Reference/esc_url)
- 
+ 22. secure url ```esc_url(get_stylesheet_directory_uri());``` [know more](https://codex.wordpress.org/Function_Reference/esc_url)
+ 23. add main **style.css** above wp_head() function ```<?php echo get_stylesheet_uri(); ?>``` [*know more*](https://codex.wordpress.org/Function_Reference/get_stylesheet_uri)
+ 24. wp-admin -> settings -> media *make everything blank* to first the site
+ 25. wp-admin -> settings -> permalinks -> *post name*
+
 
 
 
