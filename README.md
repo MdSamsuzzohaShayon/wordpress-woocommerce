@@ -2,9 +2,9 @@
 
 [Create a basic templete](https://codex.wordpress.org/Theme_Development#Basic_Templates)
 
- 1. create a style.css [comment the details there](https://codex.wordpress.org/Theme_Development)
+ 1. create a style.css [*comment the details there*](https://codex.wordpress.org/Theme_Development)
  2. Thembnail of theme name **screenshot.png** 
- 3. add before all css, js and images ```<?php echo get_stylesheet_directory_uri(); ?>```  [know more](https://codex.wordpress.org/Function_Reference)
+ 3. add before all css, js and images ```<?php echo get_stylesheet_directory_uri(); ?>```  [*know more*](https://codex.wordpress.org/Function_Reference)
  4. create a folder **inc**
  5. cut header from index.php [create](https://codex.wordpress.org/Theme_Development#Template_File_Checklist) **header.php** in root and paste the header code
  6. in index.php above all code ```<?php get_header(); ?>``` [*know more*](https://codex.wordpress.org/Function_Reference/get_header)
@@ -21,7 +21,7 @@
  18. in html beginnin tag ```<?php language_attributes(); ?> class="no-js no-svg"``` [see all](https://codex.wordpress.org/Theme_Development#Document_Head_.28header.php.29)
  19. title```<title><?php bloginfo("name"); ?></title>``` [know more about bloginfo](https://developer.wordpress.org/reference/functions/get_bloginfo/)
  20. create **functions.php** in root [*know more*](https://developer.wordpress.org/themes/basics/theme-functions/)
- 21. dynamic title from **functions.php**  ```add_theme_support( "title-tag" )``` [**know more**](https://codex.wordpress.org/Theme_Features)
+ 21. dynamic title from **functions.php**  ```add_theme_support( "title-tag" )``` [*know more*](https://codex.wordpress.org/Theme_Features)
  22. secure url ```esc_url(get_stylesheet_directory_uri());``` [know more](https://codex.wordpress.org/Function_Reference/esc_url)
  23. add main **style.css** above wp_head() function ```<?php echo get_stylesheet_uri(); ?>``` [*know more*](https://codex.wordpress.org/Function_Reference/get_stylesheet_uri)
  24. wp-admin -> settings -> media *make everything blank* to first the site
@@ -29,6 +29,8 @@
  26. enqueue scripts and style [*here*](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
  ```wp_enqueue_style( $handle, $src, $deps, $ver, $media );```
  ***and***
- ```wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );```
+ ```wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );``` 
+ 27. *$var* set true = call in footer, false = call in header
  27. ```get_theme_file_uri("location")``` [*know more*](https://codex.wordpress.org/Function_Reference/get_theme_file_uri)
+ 28. this way we can override **style.css** ```wp_enqueue_style( 'stylesheet', get_stylesheet_uri()); ``` below all enqueue style
 
