@@ -17,7 +17,14 @@
  14. wp-admin -> users -> your profile -> we can uncheck toolbar menu
  15. create new folder in root **template-parts** (*not necessary*)
  16. create more folder inside **template-parts** name **header, footer, sidebar** 
- 17. ```<?php get_template_part( 'partials/content', 'page' ); ?>``` [know more](https://codex.wordpress.org/tr:Fonksiyon_Referans/get_template_part)
+ 17. ```<?php get_template_part( 'partials/content', 'page' ); ?>``` [*know more*](https://codex.wordpress.org/tr:Fonksiyon_Referans/get_template_part)
+ 18. in html beginnin tag ```<?php language_attributes(); ?> class="no-js no-svg"``` [see all](https://codex.wordpress.org/Theme_Development#Document_Head_.28header.php.29)
+ 19. title```<title><?php bloginfo("name"); ?></title>``` [know more about bloginfo](https://developer.wordpress.org/reference/functions/get_bloginfo/)
+ 20. create **functions.php** in root [*know more*](https://developer.wordpress.org/themes/basics/theme-functions/)
+ 21. dynamic title from **functions.php**  ```add_theme_support( "title-tag" )``` [**know more**](https://codex.wordpress.org/Theme_Features)
+ 22. secure uri ```esc_url(get_stylesheet_directory_uri());``` [know more](https://codex.wordpress.org/Function_Reference/esc_url)
+ 
+
 
 
  
