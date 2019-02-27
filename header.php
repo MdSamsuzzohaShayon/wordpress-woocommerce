@@ -10,18 +10,6 @@
     <meta name="keywords" content="MediaCenter, Template, eCommerce">
     <meta name="robots" content="all"> -->
     <!-- <title><?php //bloginfo("name"); ?> - <?php //bloginfo("description"); ?></title> --> <!-- Set title in functions.php -->
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/main.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/blue.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/owl.transitions.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/animate.min.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/rateit.css">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/bootstrap-select.min.css">
-
-    <!-- Icons/Glyphs -->
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/css/font-awesome.css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>

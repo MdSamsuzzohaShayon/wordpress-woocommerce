@@ -25,9 +25,10 @@
  22. secure url ```esc_url(get_stylesheet_directory_uri());``` [know more](https://codex.wordpress.org/Function_Reference/esc_url)
  23. add main **style.css** above wp_head() function ```<?php echo get_stylesheet_uri(); ?>``` [*know more*](https://codex.wordpress.org/Function_Reference/get_stylesheet_uri)
  24. wp-admin -> settings -> media *make everything blank* to first the site
- 25. wp-admin -> settings -> permalinks -> *post name*
+ 25. wp-admin -> settings -> permalinks -> *post name* this is seo friendly
+ 26. enqueue scripts and style [*here*](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
+ ```wp_enqueue_style( $handle, $src, $deps, $ver, $media );```
+ ***and***
+ ```wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );```
+ 27. ```get_theme_file_uri("location")``` [*know more*](https://codex.wordpress.org/Function_Reference/get_theme_file_uri)
 
-
-
-
- 
