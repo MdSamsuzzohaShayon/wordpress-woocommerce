@@ -34,3 +34,10 @@
  27. ```get_theme_file_uri("location")``` [*know more*](https://codex.wordpress.org/Function_Reference/get_theme_file_uri)
  28. this way we can override **style.css** ```wp_enqueue_style( 'stylesheet', get_stylesheet_uri()); ``` below all enqueue style
 
+
+##Second Helf
+
+ 29. Customizing **page.php** -> add ```get_header();``` & ```get_footer();``` there.
+ 30. Create a file **right-sidebar.php** and paste all sidebar code
+ 31. from dashboad add new page 
+

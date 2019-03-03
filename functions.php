@@ -21,7 +21,7 @@ function themeslug_enqueue_style() {
 
     
     wp_enqueue_style( 'font-awesome-css', get_theme_file_uri("/assets/css/font-awesome.css"), array(), 'v1.0.0' ); 
-    wp_enqueue_style( 'stylesheet', get_stylesheet_uri()); 
+    wp_enqueue_style( 'stylesheet', get_stylesheet_uri());  //<!-- THIS IS FOR STYLE.CSS-->
 
 }
 
@@ -29,37 +29,37 @@ function themeslug_enqueue_style() {
 
 
 function themeslug_enqueue_script() {
-    /*
 
 
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.easing-1.3.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap-slider.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.rateit.min.js"></script>
+    // FOR CALLING IT BEFORE ENDING BODY TAG SET LAST PERAMETER TRUE
+    wp_enqueue_script( 'jquery');
+
+    wp_enqueue_script( 'jquery',get_theme_file_uri("assets/js/bootstrap.min.js"), array(), 'v1.1.0' , true);
+
+    wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . 'bootstrap.min.js', array( 'jquery' ) );
 
 
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/lightbox.min.js"></script>
 
 
 
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap-select.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/wow.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/scripts.js"></script>
-    */
-    wp_enqueue_script( 'jquery',get_theme_file_uri("/assets/js/jquery-1.11.1.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'bootstrap-js',get_theme_file_uri("/assets/js/bootstrap.min.js"), array(), 'v1.1.0' , true);
-    wp_enqueue_script( 'bootstrap-hover-dropdown-js',get_theme_file_uri("/assets/js/bootstrap-hover-dropdown.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'owl-carousel-min-js',get_theme_file_uri("/assets/js/owl.carousel.min.js"), array(), 'v1.1.0' , true);
-    wp_enqueue_script( 'echo-js',get_theme_file_uri("/assets/js/echo.min.js"), array(), 'v1.1.0' , true);
+
+
+
+
+	wp_enqueue_script( 'bootstrapjs',get_theme_file_uri("/assets/js/bootstrap.min.js"), array(), 'v1.1.0' , true);
+    wp_enqueue_script( 'bootstraphoverdropdownjs',get_theme_file_uri("/assets/js/bootstrap-hover-dropdown.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'owljs',get_theme_file_uri("/assets/js/owl.carousel.min.js"), array(), 'v1.1.0' , true);
+    wp_enqueue_script( 'echojs',get_theme_file_uri("/assets/js/echo.min.js"), array(), 'v1.1.0' , true);
     
 
-	wp_enqueue_script( 'jquery-easing-js',get_theme_file_uri("/assets/js/jquery.easing-1.3.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'bootstrap-slider-js',get_theme_file_uri("/assets/js/bootstrap-slider.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'jquery-rateit-js',get_theme_file_uri("/assets/js/jquery.rateit.min.js"), array(), 'v1.1.0' , true);
-    wp_enqueue_script( 'lightbox-js',get_theme_file_uri("/assets/js/lightbox.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'jqueryjs',get_theme_file_uri("/assets/js/jquery.easing-1.3.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'bootstrapsliderjs',get_theme_file_uri("/assets/js/bootstrap-slider.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'jqueryrateitjs',get_theme_file_uri("/assets/js/jquery.rateit.min.js"), array(), 'v1.1.0' , true);
+    wp_enqueue_script( 'lightboxjs',get_theme_file_uri("/assets/js/lightbox.min.js"), array(), 'v1.1.0' , true);
     
-    wp_enqueue_script( 'bootstrap-select-js',get_theme_file_uri("/assets/js/bootstrap-select.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'wow-js',get_theme_file_uri("/assets/js/wow.min.js"), array(), 'v1.1.0' , true);
-	wp_enqueue_script( 'scripts-js',get_theme_file_uri("/assets/js/scripts.js"), array(), 'v1.1.0' , true);
+    wp_enqueue_script( 'bootstrapselectjs',get_theme_file_uri("/assets/js/bootstrap-select.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'wowjs',get_theme_file_uri("/assets/js/wow.min.js"), array(), 'v1.1.0' , true);
+	wp_enqueue_script( 'scriptsjs',get_theme_file_uri("/assets/js/scripts.js"), array(), 'v1.1.0' , true);
 
     
 
