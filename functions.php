@@ -85,4 +85,9 @@ function ecomMenu(){
 add_action('init', 'ecomMenu');
 // init = the location
 
+
+
+// REGISTER IMAGE SUPPORT
+add_theme_support("post-thumbnails");
+
 ?>

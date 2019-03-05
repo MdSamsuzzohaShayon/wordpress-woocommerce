@@ -35,7 +35,7 @@
  28. this way we can override **style.css** ```wp_enqueue_style( 'stylesheet', get_stylesheet_uri()); ``` below all enqueue style
 
 
-##Second Helf
+## Second Helf
 
  29. Customizing **page.php** -> add ```get_header();``` & ```get_footer();``` there. **page.php** file is for single default page
  30. Create a file **right-sidebar.php** and paste all sidebar code
@@ -71,7 +71,11 @@
 ### Dynamically display menu
 
  46. use ```wp_nav_menu()``` [*know more*](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
- 
+
+### [image support](https://codex.wordpress.org/Post_Thumbnails)
+
+ 47. in **functions.php** add ```add_theme_support("post-thumbnails");``` in dashboard -> new post there will be a option for image
+ 48. 
 
  
 
