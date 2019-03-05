@@ -38,12 +38,21 @@
             <div class="container">
                 <div class="header-top-inner">
                     <div class="cnt-account">
-                        <ul class="list-unstyled">
+                        <?php 
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'top_menu',
+                                    'container_class' => 'cnt-account',
+                                    'items_wrap' => '<ul class="list-unstyled">%3$s</ul>'
+                                )
+                            );
+                        ?>
+                        <!-- <ul class="list-unstyled">
                             <li><a href="#"><i class="icon fa fa-user"></i>My Account</a></li>
                             <li><a href="#"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
                             <li><a href="#"><i class="icon fa fa-check"></i>Checkout</a></li>
                             <li><a href="#"><i class="icon fa fa-lock"></i>Login</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -112,7 +121,8 @@
                         </div>
                         <div class="nav-bg-class">
                             <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
-                                <div class="nav-outer"> <!-- this is container class-->
+                                <div class="nav-outer">
+                                    <!-- this is container class-->
                                     <?php 
                                         wp_nav_menu(
                                             array(
