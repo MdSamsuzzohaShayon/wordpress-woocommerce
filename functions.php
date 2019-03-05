@@ -88,6 +88,8 @@ add_action('init', 'ecomMenu');
 
 
 // REGISTER IMAGE SUPPORT
-add_theme_support("post-thumbnails");
+add_theme_support("post-thumbnails", array('post', 'page')); // For only post and page
+set_post_thumbnail_size(300, 200, true); //4 parameters we can pass
+add_image_size('myFeaturedImage', 1360, 768, true);
 
 ?>

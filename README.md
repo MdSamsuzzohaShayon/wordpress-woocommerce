@@ -75,7 +75,9 @@
 ### [image support](https://codex.wordpress.org/Post_Thumbnails)
 
  47. in **functions.php** add ```add_theme_support("post-thumbnails");``` in dashboard -> new post there will be a option for image
- 48. 
+ 48. custom image setup ```set_post_thumbnail_size('name', 'width', 'heaght', 'crop');``` include this in below ```add_theme_support();```
+ 49. [*thumbnail image size*](https://codex.wordpress.org/Function_Reference/set_post_thumbnail_size), [*image size*](https://codex.wordpress.org/User:Esmi/add_image_size())
+ 50. Go to Wordpress project folder -> wp-content-> uploads -> see uploaded file size
 
  
 
