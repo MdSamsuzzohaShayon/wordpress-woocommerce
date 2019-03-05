@@ -1,6 +1,6 @@
 <?php 
 
-// DISPLAY TITLE AND TAG IN HEADER
+// // DISPLAY TITLE AND TAG IN HEADER
 add_theme_support('title-tag');
 
 
@@ -21,6 +21,9 @@ function themeslug_enqueue_style() {
 
     
     wp_enqueue_style( 'font-awesome-css', get_theme_file_uri("/assets/css/font-awesome.css"), array(), 'v1.0.0' ); 
+
+
+
     wp_enqueue_style( 'stylesheet', get_stylesheet_uri());  //<!-- THIS IS FOR STYLE.CSS-->
 
 }
@@ -31,20 +34,16 @@ function themeslug_enqueue_style() {
 function themeslug_enqueue_script() {
 
 
-    // FOR CALLING IT BEFORE ENDING BODY TAG SET LAST PERAMETER TRUE
-    wp_enqueue_script( 'jquery');
-
-    wp_enqueue_script( 'jquery',get_theme_file_uri("assets/js/bootstrap.min.js"), array(), 'v1.1.0' , true);
-
-    wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . 'bootstrap.min.js', array( 'jquery' ) );
+//     // FOR CALLING IT BEFORE ENDING BODY TAG SET LAST PERAMETER TRUE
+    // wp_enqueue_script( 'jquery');
+    // wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . 'bootstrap.min.js', array( 'jquery' ) );
 
 
 
 
 
 
-
-
+	wp_enqueue_script( 'jquery-js',get_theme_file_uri("/assets/js/jquery-1.11.1.min.js"), array(), 'v1.1.0' , true);
 
 	wp_enqueue_script( 'bootstrapjs',get_theme_file_uri("/assets/js/bootstrap.min.js"), array(), 'v1.1.0' , true);
     wp_enqueue_script( 'bootstraphoverdropdownjs',get_theme_file_uri("/assets/js/bootstrap-hover-dropdown.min.js"), array(), 'v1.1.0' , true);
