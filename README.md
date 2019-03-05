@@ -49,16 +49,29 @@
  ### Create custom page
 
  37. page.php is default page. I wil create custom page **about.php** inside root write all the code [*know more*](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
- 38. 
+ 38. inside comment name the template
  ```
  <?php get_header(); 
-/*
-Template Name: About Us
-*/
-?>
-``` inside comment name the template
- 
+ /*
+ Template Name: About Us
+ */
+ ?>
+ ```  
  39. from dashboard -> page -> add new -> Page atributes -> template -> select the name of your page
- 38. 
+ 
+ ### [Custom Menu](https://codex.wordpress.org/WordPress_Menu_User_Guide)
+
+ 40. inside **functions.php** create a function and call ```add_action()``` *(know more*)[https://codex.wordpress.org/Navigation_Menus]
+ 41. refresh dashboard there will new options **Menus**
+ 42. Dashboard -> Menus -> create a new menu -> Set menu name -> If we save there will be a option display location
+ 43. Dashboard -> Menus -> Most recent -> mark and add to menu (if necessary)
+ 44. create one more menu **Top** . Go to  Dashboard -> Menus -> Manage Location 
+ 45. *Select a menu to edit* there will be two menu now
+
+### Dynamically display menu
+
+ 46. use ```wp_nav_menu()``` [*know more*](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
+ 
+
  
 

@@ -69,4 +69,20 @@ function themeslug_enqueue_script() {
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 
+
+
+// REGISTER MENU SUPPORT
+function ecomMenu(){
+    // Checking for menu exist or not
+    if(function_exists('register_nav_menu')){ 
+        register_nav_menu('main_menu', __('My Main Menu', 'ecom'));
+        register_nav_menu('top_menu', __('Top Menu', 'ecom'));
+        // main_menu = id
+        // My Main Menu = name 
+        // ecom = Text Domain(we set that in style.css)
+    }
+}
+add_action('init', 'ecomMenu');
+// init = the location
+
 ?>
