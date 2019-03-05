@@ -41,8 +41,24 @@
  30. Create a file **right-sidebar.php** and paste all sidebar code
  31. from dashboad add new page and view that page that will be **page.php**
  32. add sidebar ```<?php get_template_part("template-parts/sidebar/right-sidebar", "sidebar-right"); ?>```
- 33. create a folder inside **template-parts** name **content** and inside that folder create **content.php** and paste the main content code
+ 33. create a folder in **template-parts** name **content** and inside that folder create **content.php** and paste main content code
  34. go to dashboard -> About Us -> edit page title and descriptions
  35. Print those content of the page by using [loop](https://codex.wordpress.org/The_Loop_in_Action)
  36. [```get_the_content();```](https://codex.wordpress.org/Function_Reference/get_the_content) [```have_posts();```](https://codex.wordpress.org/Function_Reference/have_posts) [```the_post();```](https://codex.wordpress.org/Plugin_API/Action_Reference/the_post) Use those to dynamic page
+
+ ### Create custom page
+
+ 37. page.php is default page. I wil create custom page **about.php** inside root write all the code [*know more*](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
+ 38. 
+ ```
+ <?php get_header(); 
+/*
+Template Name: About Us
+*/
+?>
+``` inside comment name the template
+ 
+ 39. from dashboard -> page -> add new -> Page atributes -> template -> select the name of your page
+ 38. 
+ 
 
