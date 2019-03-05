@@ -37,7 +37,12 @@
 
 ##Second Helf
 
- 29. Customizing **page.php** -> add ```get_header();``` & ```get_footer();``` there.
+ 29. Customizing **page.php** -> add ```get_header();``` & ```get_footer();``` there. **page.php** file is for single default page
  30. Create a file **right-sidebar.php** and paste all sidebar code
- 31. from dashboad add new page 
+ 31. from dashboad add new page and view that page that will be **page.php**
+ 32. add sidebar ```<?php get_template_part("template-parts/sidebar/right-sidebar", "sidebar-right"); ?>```
+ 33. create a folder inside **template-parts** name **content** and inside that folder create **content.php** and paste the main content code
+ 34. go to dashboard -> About Us -> edit page title and descriptions
+ 35. Print those content of the page by using [loop](https://codex.wordpress.org/The_Loop_in_Action)
+ 36. [```get_the_content();```](https://codex.wordpress.org/Function_Reference/get_the_content) [```have_posts();```](https://codex.wordpress.org/Function_Reference/have_posts) [```the_post();```](https://codex.wordpress.org/Plugin_API/Action_Reference/the_post) Use those to dynamic page
 
