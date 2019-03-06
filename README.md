@@ -79,5 +79,12 @@
  49. [*thumbnail image size*](https://codex.wordpress.org/Function_Reference/set_post_thumbnail_size), [*image size*](https://codex.wordpress.org/User:Esmi/add_image_size())
  50. Go to Wordpress project folder -> wp-content-> uploads -> see uploaded file size
 
+### [widget](https://codex.wordpress.org/Widgets_API)
+
+ 51. from footer.php we want **Corporation** title to be a dynamic one
+ 52. create a ```register_sidebar``` function in **functions.php** for make a sidebar widget [*know more*](https://codex.wordpress.org/Function_Reference/register_sidebar)
+ 53. dashboard -> appearance -> widget -> there will be a new footer widget 
+ 54. drag a navigation menu into footer widget. give a title and set to main menu
+
  
 
