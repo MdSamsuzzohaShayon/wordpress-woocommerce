@@ -91,7 +91,14 @@
 
 ### [Woocommerce setup](https://wordpress.org/plugins/woocommerce/)
 
+[*official docs woocommerce*](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/)
  57. donwload woocommerce from <wordpress.org> , unzip it and include woocommerce folder to ```project-root/wp-content/plugins```
- 58. refresh dashboard and click on plugins -> activate woocommerce and fill initial basic info. latter on we can change
- 59. in dashboard there will be some error we need to fix that
- 60. 
+ 58. refresh dashboard and click on plugins -> activate woocommerce and fill initial basic info. latter on we can change [*know more*](https://docs.woocommerce.com/document/start-with-woocommerce-in-5-steps/)
+ 59. in dashboard there will be some error we can fix that letter
+ 60. dashboard -> woocommerce -> [*all setting details*](https://docs.woocommerce.com/document/configuring-woocommerce-settings/)
+  - order -> add new for making manual order.
+  - Coupons for some descount
+  - reports for showing the performance ot the shop
+  - setting all setting we can setup and update from there
+ 61. dashboard -> product -> [*all setting*](https://docs.woocommerce.com/document/managing-products/)
+  - product -> crete first product 

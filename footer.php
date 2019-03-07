@@ -58,7 +58,7 @@
                         </div>
                     </div> -->
                     <?php dynamic_sidebar("footer_widget_one"); ?>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    <!-- <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="module-heading">
                             <h4 class="module-title">Why Choose Us</h4>
                         </div>
@@ -71,7 +71,7 @@
                                 <li class=" last"><a href="contact-us.html" title="Suppliers">Contact Us</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
