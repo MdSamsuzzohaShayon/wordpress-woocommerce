@@ -118,4 +118,13 @@ function ecom_widgets(){
 
 add_action('widgets_init', 'ecom_widgets');
 
+
+
+// theme support and style for woocommerce plugin
+function ecom_woocommerce_support(){
+    add_theme_support( 'woocommerce' );
+}
+
+add_action("after_setup_theme", "ecom_woocommerce_support");
+
 ?>

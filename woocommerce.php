@@ -5,10 +5,9 @@
             <div class="row" style="margin-top: 30px;">
                 <div class="blog-page">
                     <div class="col-md-9">
-                    <!-- FOR USING WOOCOMMERCE WE NEED TO CALL WHILE LOOP THIS WAY -->
-                    <?php while(have_posts()) : the_post(); ?>
-                       <?php get_template_part("template-parts/content/content", "page-content"); ?>
-                       <?php endwhile; ?>
+                    <!-- //REMOVE WHILE LOOP AND ALL CONTENT INSIDE LOOP -->
+                    <!-- <h1>Checkoing woocommerce</h1> -->
+                    <?php woocommerce_content(); ?>
                     </div>
                    <!-- //THIS IS RIGHT SIDEBAR AREA -->
                    <?php get_template_part("template-parts/sidebar/right-sidebar", "sidebar-right"); ?>

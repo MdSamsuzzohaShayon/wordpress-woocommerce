@@ -101,4 +101,11 @@
   - reports for showing the performance ot the shop
   - setting all setting we can setup and update from there
  61. dashboard -> product -> [*all setting*](https://docs.woocommerce.com/document/managing-products/)
-  - product -> crete first product 
+  - product -> crete first product
+
+### theme support and style for woocommerce plugin
+
+ 62. in **functions.php** create ```add_theme_support( $feature );```  we already used it before. [*know more*](https://developer.wordpress.org/reference/functions/add_theme_support/)
+ 63. from **header.php** remove all class and add ```<?php body_class(); ?>``` it will get default style [*know more*](https://woocommerce.wp-a2z.org/oik_api/body_class/)
+ 64. copy **page.php** and rename **woocommerce.php** afterward remove while loop and all content inside loop [*know more*](https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/)
+ 65. replace loop with ```<?php woocommerce_content(); ?>``` and reload shop page and click on a product [*know more*](https://woocommerce.wp-a2z.org/oik_api/woocommerce_content/)

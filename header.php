@@ -32,7 +32,7 @@
     <!-- <link rel="stylesheet" href="assets/css/font-awesome.css">  -->
 </head>
 
-<body class="cnt-home">
+<body <?php body_class(); ?>>
     <header class="header-style-1">
         <div class="top-bar animate-dropdown">
             <div class="container">
