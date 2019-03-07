@@ -88,4 +88,10 @@
  55. to display widget content add ```<?php dynamic_sidebar("footer_widget_one"); ?>``` in **footer.php**
  56. go to widgets -> add text into footer widget one -> tab text option -> write html code like: list item and all code [*know more*](https://codex.wordpress.org/WordPress_Widgets#Existing_Widgets_in_Existing_Widget_Areas)
 
- 
+
+### [Woocommerce setup](https://wordpress.org/plugins/woocommerce/)
+
+ 57. donwload woocommerce from <wordpress.org> , unzip it and include woocommerce folder to ```project-root/wp-content/plugins```
+ 58. refresh dashboard and click on plugins -> activate woocommerce and fill initial basic info. latter on we can change
+ 59. in dashboard there will be some error we need to fix that
+ 60. 
