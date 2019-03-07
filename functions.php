@@ -96,9 +96,19 @@ add_image_size('myFeaturedImage', 1360, 768, true);
 // WIDGET SUPPORT
 function ecom_widgets(){
     register_sidebar(array(
-        'name' => esc_html__('Footer Widget', 'ecom'),
+        'name' => esc_html__('Footer Widget one', 'ecom'),
         'description' => esc_html__('This is description area for widget', 'ecom'),
-        'id' => 'footer_widget_1', 
+        'id' => 'footer_widget_one', 
+        'before_widget' => '<div class="col-xs-12 col-sm-6 col-md-3">',
+        'after_widget' => '</div>',
+        'before_title' => '<div class="module-heading"> <h4 class="module-title">',  // ALL TAG BEFORE THE CONTENT
+        'after_title' => '</h4></div>' // ALL TAG AFTER THE CONTENT
+    ));
+    //CREATING ONE MORE WIDGET
+    register_sidebar(array(
+        'name' => esc_html__('Footer Widget two', 'ecom'),
+        'description' => esc_html__('This is description area for widget', 'ecom'),
+        'id' => 'footer_widget_two', 
         'before_widget' => '<div class="col-xs-12 col-sm-6 col-md-3">',
         'after_widget' => '</div>',
         'before_title' => '<div class="module-heading"> <h4 class="module-title">',  // ALL TAG BEFORE THE CONTENT

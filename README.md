@@ -35,7 +35,7 @@
  28. this way we can override **style.css** ```wp_enqueue_style( 'stylesheet', get_stylesheet_uri()); ``` below all enqueue style
 
 
-## Second Helf
+## [Default Page](https://codex.wordpress.org/Pages)
 
  29. Customizing **page.php** -> add ```get_header();``` & ```get_footer();``` there. **page.php** file is for single default page
  30. Create a file **right-sidebar.php** and paste all sidebar code
@@ -46,7 +46,7 @@
  35. Print those content of the page by using [loop](https://codex.wordpress.org/The_Loop_in_Action)
  36. [```get_the_content();```](https://codex.wordpress.org/Function_Reference/get_the_content) [```have_posts();```](https://codex.wordpress.org/Function_Reference/have_posts) [```the_post();```](https://codex.wordpress.org/Plugin_API/Action_Reference/the_post) Use those to dynamic page
 
- ### Create custom page
+ ### [Create custom page](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
 
  37. page.php is default page. I wil create custom page **about.php** inside root write all the code [*know more*](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
  38. inside comment name the template
@@ -81,10 +81,11 @@
 
 ### [widget](https://codex.wordpress.org/Widgets_API)
 
- 51. from footer.php we want **Corporation** title to be a dynamic one
+ 51. from **footer.php** we want *Corporation* title to be a dynamic one
  52. create a ```register_sidebar``` function in **functions.php** for make a sidebar widget [*know more*](https://codex.wordpress.org/Function_Reference/register_sidebar)
  53. dashboard -> appearance -> widget -> there will be a new footer widget 
  54. drag a navigation menu into footer widget. give a title and set to main menu
+ 55. to display widget content add ```<?php dynamic_sidebar("footer_widget_one"); ?>``` in **footer.php**
+ 56. go to widgets -> add text into footer widget one -> tab text option -> write html code like: list item and all code [*know more*](https://codex.wordpress.org/WordPress_Widgets#Existing_Widgets_in_Existing_Widget_Areas)
 
  
-
