@@ -88,9 +88,9 @@ add_action('init', 'ecomMenu');
 
 
 // REGISTER IMAGE SUPPORT
-add_theme_support("post-thumbnails", array('post', 'page')); // For only post and page
-set_post_thumbnail_size(300, 200, true); //4 parameters we can pass
-add_image_size('myFeaturedImage', 1360, 768, true);
+//add_theme_support("post-thumbnails", array('post', 'page')); // For only post and page
+// set_post_thumbnail_size(300, 200, true); //4 parameters we can pass
+// add_image_size('myFeaturedImage', 1360, 768, true);
 
 
 // WIDGET SUPPORT
@@ -126,5 +126,8 @@ function ecom_woocommerce_support(){
 }
 
 add_action("after_setup_theme", "ecom_woocommerce_support");
+add_theme_support( 'post-thumbnails', array( 'post', 'page', 'movie', 'product' ) ); // THIS WILL ADD FEATURE PHOTOS FOR THIS ('post', 'page', 'movie', 'product') 4 PAGE
+set_post_thumbnail_size(300, 200, true); //4 parameters we can pass
+add_image_size('myFeaturedImage', 1360, 768, true);
 
 ?>
