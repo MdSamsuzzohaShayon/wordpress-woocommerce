@@ -109,3 +109,12 @@
  63. from **header.php** remove all class and add ```<?php body_class(); ?>``` it will get default style [*know more*](https://woocommerce.wp-a2z.org/oik_api/body_class/)
  64. copy **page.php** and rename **woocommerce.php** afterward remove while loop and all content inside loop [*know more*](https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/)
  65. replace loop with ```<?php woocommerce_content(); ?>``` and reload shop page and click on a product [*know more*](https://woocommerce.wp-a2z.org/oik_api/woocommerce_content/)
+ 66. all product -> edit any product -> add shiping info that will add some additional info [*custom page view setup*](https://docs.woocommerce.com/document/editing-product-data-tabs/) , [*know more*](https://docs.woocommerce.com/document/per-product-shipping/)
+ 67. all product -> edit any product -> Linked product -> Upsells -> product name -> it will display in singel product page as related product [*know more*](https://docs.woocommerce.com/document/related-products-up-sells-and-cross-sells/)
+
+### import dummy data for product
+
+ 68. collect dummy data from ```htdocs\root\wp-content\plugins\woocommerce\sample-data\sample_products.xml``` (use sample_products.csv for data with image) capy and paste in desktop
+ 69. dashboards -> tools -> import -> wordpress install now -> run importer -> upload that xml file -> give wp admin name -> existing user admin [*know more*](https://docs.woocommerce.com/document/importing-woocommerce-sample-data/)
+ 70. dashboards -> tools -> import -> woocommerce products (csv) -> run importer -> upload that csv file -> cloumn maping let that be default [*know more*](https://docs.woocommerce.com/document/importing-woocommerce-sample-data/)
+ 71. 
