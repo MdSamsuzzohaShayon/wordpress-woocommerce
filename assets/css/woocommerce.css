@@ -1,0 +1,21 @@
+.woocommerce ul.products li.product .button {
+    background: blue;
+    color: white;
+}
+
+.woocommerce a.added_to_cart {
+    padding-top: .5em;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: yellow;
+    text-align: center;
+    width: 120px;
+    padding-top: 0;
+    line-height: 40px;
+    height: 42px;
+    color: black;
+}
