@@ -129,3 +129,7 @@
  77. create one more menu **Home** by appearance -> menus -> custom links -> paste home url, Home and add to menu
  78. display archive-product.php sidebar ``` do_action( 'woocommerce_sidebar' );``` [*know more*](https://codex.wordpress.org/Function_Reference/do_action_ref_array)
 
+ ### design shop page
+
+ 79. to remove the breadcurmbs from middle of shop page in **functions.php** ```remove_action();``` [*know more*](https://codex.wordpress.org/Function_Reference/remove_action) [*example*](https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/)
+
