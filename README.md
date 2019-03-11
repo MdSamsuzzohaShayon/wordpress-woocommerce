@@ -127,4 +127,5 @@
  75. We will no longer use woocommerce.php for this project so create a backup file with any name and delete **woocommerce.php**
  76. when we override woocommerce theme and update our over written code will be gone for that ```htdocs\root\wp-content\plugins\woocommerce``` from there copy templates folder and paste it in our theme root folder ```htdocs\project\wp-content\themes\root``` here and name it **woocommerce**
  77. create one more menu **Home** by appearance -> menus -> custom links -> paste home url, Home and add to menu
+ 78. display archive-product.php sidebar ``` do_action( 'woocommerce_sidebar' );``` [*know more*](https://codex.wordpress.org/Function_Reference/do_action_ref_array)
 

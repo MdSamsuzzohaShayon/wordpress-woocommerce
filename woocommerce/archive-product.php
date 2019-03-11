@@ -18,7 +18,20 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' );
+?>
 
+<div class="body-content outer-top-xs">
+	<div class='container'>
+		<div class='row'>
+		<?php get_template_part( 'template-parts/sidebar/sidebar', 'sidebar' ); ?>
+			<div class="col-md-9">
+				<?php get_template_part( 'template-parts/content/banner', 'banner' ); ?>
+				<div class="search-result-container ">
+					<div id="myTabContent" class="tab-content category-list">
+						<div class="tab-pane active " id="grid-container">
+							
+
+<?php
 /**
  * Hook: woocommerce_before_main_content.
  *
@@ -29,12 +42,14 @@ get_header( 'shop' );
 do_action( 'woocommerce_before_main_content' );
 
 ?>
-<header class="woocommerce-products-header">
-	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-	<?php endif; ?>
+							<header class="woocommerce-products-header">
+								<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+								<h1 class="woocommerce-products-header__title page-title">
+									<?php woocommerce_page_title(); ?>
+								</h1>
+								<?php endif; ?>
 
-	<?php
+								<?php
 	/**
 	 * Hook: woocommerce_archive_description.
 	 *
@@ -43,9 +58,9 @@ do_action( 'woocommerce_before_main_content' );
 	 */
 	do_action( 'woocommerce_archive_description' );
 	?>
-</header>
-<h1>I am from theme root folder archive-product.php</h1>
-<?php
+							</header>
+							<!-- <h1>I am from theme root folder archive-product.php</h1> -->
+							<?php
 if ( woocommerce_product_loop() ) {
 
 	/**
@@ -103,6 +118,16 @@ do_action( 'woocommerce_after_main_content' );
  *
  * @hooked woocommerce_get_sidebar - 10
  */
-do_action( 'woocommerce_sidebar' );
+// do_action( 'woocommerce_sidebar' );
+?>
 
-get_footer( 'shop' );
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<?php get_footer( 'shop' ); ?>
