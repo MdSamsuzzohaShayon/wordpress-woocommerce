@@ -91,7 +91,7 @@
 
 ### [Woocommerce setup](https://wordpress.org/plugins/woocommerce/)
 
-[*official docs woocommerce*](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/)
+[*official docs woocommerce*](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/) [*official github page*](https://github.com/woocommerce/woocommerce)
  57. donwload woocommerce from <wordpress.org> , unzip it and include woocommerce folder to ```project-root/wp-content/plugins```
  58. refresh dashboard and click on plugins -> activate woocommerce and fill initial basic info. latter on we can change [*know more*](https://docs.woocommerce.com/document/start-with-woocommerce-in-5-steps/)
  59. in dashboard there will be some error we can fix that letter
@@ -114,7 +114,16 @@
 
 ### import dummy data for product
 
- 68. collect dummy data from ```htdocs\root\wp-content\plugins\woocommerce\sample-data\sample_products.xml``` (use sample_products.csv for data with image) capy and paste in desktop
+ 68. collect dummy data from ```htdocs\project\wp-content\plugins\woocommerce\sample-data\sample_products.xml``` (use sample_products.csv for data with image) capy and paste in desktop
  69. dashboards -> tools -> import -> wordpress install now -> run importer -> upload that xml file -> give wp admin name -> existing user admin [*know more*](https://docs.woocommerce.com/document/importing-woocommerce-sample-data/)
  70. dashboards -> tools -> import -> woocommerce products (csv) -> run importer -> upload that csv file -> cloumn maping let that be default [*know more*](https://docs.woocommerce.com/document/importing-woocommerce-sample-data/)
- 71. 
+ 71. dashboards -> tools -> import -> woocommerce tax rates csv -> 
+
+ ### [Woocommerce custom theme](https://docs.woocommerce.com/document/woocommerce-theme-developer-handbook/)
+
+ 72. *shop page turn into home* settings -> reading -> your homepage displays -> a static page -> Shop [*know more*](https://docs.woocommerce.com/document/woocommerce-pages/)
+ 73. ```htdocs\project\wp-content\plugins\woocommerce\templates\archive-product.php``` customize this for diffrent page style diffrent. Example: in shop page catagory section in right side and in details catagory in left side [*know more*](https://docs.woocommerce.com/document/template-structure/)
+ 74. when woocommerce.php delete there will show [**archive-product.php**](https://github.com/woocommerce/woocommerce/blob/master/templates/archive-product.php)
+ 75. We will no longer use woocommerce.php for this project so create a backup file with any name and delete **woocommerce.php**
+ 76. when we override woocommerce theme and update our over written code will be gone for that ```htdocs\root\wp-content\plugins\woocommerce``` from there copy templates folder and paste it in our theme root folder ```htdocs\project\wp-content\themes\root``` here and name it **woocommerce**
+

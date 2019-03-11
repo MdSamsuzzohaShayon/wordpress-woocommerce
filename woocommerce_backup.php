@@ -2,6 +2,8 @@
 
     <div class="body-content">
         <div class="container">
+        <h1>I am from woocommerce.php</h1>
+        <!-- DELETE WOOCOMMERCE.PHP FOR CHECKING PURPOSE AND RELOAD -->
             <div class="row" style="margin-top: 30px;">
                 <div class="blog-page">
                     <div class="col-md-9">
