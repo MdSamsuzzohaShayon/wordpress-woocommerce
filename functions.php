@@ -133,7 +133,7 @@ add_image_size('myFeaturedImage', 1360, 768, true);
 
 // REMOVE THE BREADCURMS
 function woo_remove_breadcurms(){
-    remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
+    remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); 
 }
 add_action('init', 'woo_remove_breadcurms');
 

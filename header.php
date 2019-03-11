@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-10 logo-holder">
                         <div class="logo">
-                            <a href="home.html"> <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/logo.png"
+                            <a href="<?php echo esc_url(home_url('/')); ?>"> <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/logo.png"
                                     alt="logo"> </a>
                         </div>
                     </div>
