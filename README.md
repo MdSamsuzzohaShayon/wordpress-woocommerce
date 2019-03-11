@@ -132,6 +132,7 @@
  ### design shop page
 
  79. to remove the breadcurmbs from middle of shop page in **functions.php** ```remove_action();``` [*know more*](https://codex.wordpress.org/Function_Reference/remove_action) [*example*](https://docs.woocommerce.com/document/third-party-custom-theme-compatibility/)
- 80. ```<?php echo esc_url(home_url('/')); ?>``` use this to display hiome directory location [*know more*](https://codex.wordpress.org/Function_Reference/esc_url) [*home url*](https://codex.wordpress.org/Function_Reference/home_url)
- 81. 
+ 80. ```<?php echo esc_url(home_url('/')); ?>``` use this to display home directory location [*know more*](https://codex.wordpress.org/Function_Reference/esc_url) [*home url*](https://codex.wordpress.org/Function_Reference/home_url)
+ 81. in css folder create a css file
+ 82. ```root/woocommerce/loop/add-to-cart.php``` this file is for custom add to cart button design
 

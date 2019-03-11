@@ -21,7 +21,7 @@ function themeslug_enqueue_style() {
 
     
     wp_enqueue_style( 'font-awesome-css', get_theme_file_uri("/assets/css/font-awesome.css"), array(), 'v1.0.0' ); 
-
+    wp_enqueue_style( 'woocommerce-css', get_theme_file_uri("/assets/css/woocommerce.css"), array(), 'v1.0.0' ); 
 
 
     wp_enqueue_style( 'stylesheet', get_stylesheet_uri());  //<!-- THIS IS FOR STYLE.CSS-->
@@ -136,5 +136,21 @@ function woo_remove_breadcurms(){
     remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); 
 }
 add_action('init', 'woo_remove_breadcurms');
+
+
+
+
+//GETTING 4,3,5 PRODUCTS
+//https://docs.woocommerce.com/document/woocommerce-shortcodes/
+if(!function_exists('loop_columns_3')){
+    function loop_columns_3(){
+        return 3; //RETURNS 3 PRODUCTS
+    }
+}
+add_filter('loop_shop_columns', 'loop_columns_3');
+
+
+
+
 
 ?>
