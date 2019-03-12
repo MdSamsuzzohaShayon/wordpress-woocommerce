@@ -135,5 +135,6 @@
  80. ```<?php echo esc_url(home_url('/')); ?>``` use this to display home directory location [*know more*](https://codex.wordpress.org/Function_Reference/esc_url) [*home url*](https://codex.wordpress.org/Function_Reference/home_url)
  81. in css folder create a css file and in **functions.php** add one more enqueue style for that 
  82. ```root/woocommerce/loop/add-to-cart.php``` this file is for custom add to cart button design
- 83. which element I want to design right click on it and inspect element and make style theme and copy css code and paste in css file we made
+ 83. for shop page which element I want to design right click on it and inspect element and make style theme from inspect element style and copy css code with class name and paste in css file we made
+ 84. 
 

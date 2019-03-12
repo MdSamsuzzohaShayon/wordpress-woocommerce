@@ -1,6 +1,9 @@
 .woocommerce ul.products li.product .button {
-    background: blue;
+    /* background: blue; */
+    background: rgb(0, 206, 0);
     color: white;
+    margin-top: 0;
+    line-height: 19px;
 }
 
 .woocommerce a.added_to_cart {
@@ -18,4 +21,9 @@
     line-height: 40px;
     height: 42px;
     color: black;
+}
+.woocommerce ul.products li.product .onsale {
+    background: rgb(0, 194, 0);
+    margin-top: 10px;
+    margin-right: 10px;
 }

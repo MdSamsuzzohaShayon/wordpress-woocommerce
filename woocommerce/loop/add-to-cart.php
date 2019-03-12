@@ -33,7 +33,13 @@ echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
 				<div class="action">
 					<ul class="list-unstyled">
 						<li class="add-cart-button btn-group open">
-						<a href="%s" data-quantity="%s" class="%s" %s>%s</a>
+						<a href="%s" data-quantity="%s" class="%s" %s><i class="fa fa-shopping-cart"></i></a>
+						</li>
+						<li class="lnk wishlist">
+							<a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a>
+						</li>
+						<li class="lnk">
+							<a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a>
 						</li>
 					</ul>
 				</div>
