@@ -133,7 +133,7 @@ do_action( 'woocommerce_before_main_content' );
         </div>
         <!-- /.col -->
         <div class="col col-sm-6 col-md-4 text-right">
-            <div class="pagination-container">
+            <!-- <div class="pagination-container">
                 <ul class="list-inline list-unstyled">
                     <li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
                     <li><a href="#">1</a></li>
@@ -141,7 +141,9 @@ do_action( 'woocommerce_before_main_content' );
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
                     <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                </ul>
+                </ul> --> <!-- REMOVE THIS INBUILT PAGINATION -->
+                <!-- CALL THE FUNCTION FROM FUNCTIONS.PHP -->
+                <?php ecom_pagination();?> 
                 <!-- /.list-inline -->
             </div>
             <!-- /.pagination-container -->

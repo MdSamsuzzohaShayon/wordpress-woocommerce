@@ -180,7 +180,7 @@ add_filter('woocommerce_breadcrumb_defaults', 'ecom_woocommerce_breadcrum');
 
 
 
-// REMOVE WORDERING 
+// REMOVE ORDERING 
 function woo_remove_ordering(){
     remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 }
@@ -193,6 +193,43 @@ function woo_remove_result(){
     remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 ); 
 }
 add_action('init', 'woo_remove_result');
+
+
+// REMOVE PAGINATION 
+function woo_remove_pagination(){
+    remove_action( 'woocommerce_after_shop_loop', 'woocommerce_pagination', 10 );
+}
+add_action('init', 'woo_remove_pagination');
+
+
+
+//CREATE CUSTOM PAGINATION
+function ecom_pagination(){
+    global $wp_query;
+    if($wp_query->max_num_pages <= 1) return;
+
+    $big = 999999999;
+
+    $pages = paginate_links(array(
+        'base'         => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+        'format'       => '?paged=%#%',
+        'current'      => max( 1, get_query_var('paged') ),
+        'total'        => $wp_query->max_num_pages,
+        'type'         => 'array',
+        'prev_next'    => true,
+        'prev_text'    =>("« prev"),
+        'next_text'    => 'next »'
+    ));
+
+    if(is_array($pages)){
+        $paged = ( get_query_var('paged') == 0) ? 1 : get_query_var('paged');
+        echo '<div class="pagination-container"> <ul class="list-inline list-unstyled">';
+        foreach ($pages as $page){
+            echo "<li>$page</li>";
+        }
+        echo '</ul></div>';
+    }
+}
 
 
 ?>

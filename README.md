@@ -145,4 +145,9 @@
  88. ```remove_action( 'woocommerce_before_shop_loop', woocommerce_result_count', 20 );```
  89. ```remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );``` [*know more*](https://businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/)
 
+ ### [pagination design](https://docs.woocommerce.com/document/woo_pagination/)
+
+ 90. we can see all hook from **archive-product.php** remove that like result and sort we removed
+ 91. [*add custom pagination*](https://github.com/woocommerce/woocommerce/blob/master/templates/loop/pagination.php) from **functions.php** created a function but don't `add_action` or `add_filter` this is diffrent function . Copy the function name and paste in place of inbuilt pagination from **archive-product.php**
+
 
