@@ -136,5 +136,13 @@
  81. in css folder create a css file and in **functions.php** add one more enqueue style for that 
  82. ```root/woocommerce/loop/add-to-cart.php``` this file is for custom add to cart button design
  83. for shop page which element I want to design right click on it and inspect element and make style theme from inspect element style and copy css code with class name and paste in css file we made
- 84. 
+ 84. ```<?php woocommerce_breadcrumb(); ?>``` use this function in **archive-product.php** to show directory dynamically [*know more*](https://docs.woocommerce.com/document/woocommerce_breadcrumb/)
+ 84. Change breadcurmb default from **functions.php** add a filter [*know more*](https://docs.woocommerce.com/document/customise-the-woocommerce-breadcrumb/)
+ 85. to remove header title shop from **archive-product** make this peremeters false or comment those lines
+ ```<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>```
+ 86. to remove ![showing result and sort](img/sort_result/PNG)
+ 87. [*find visual hook guide*](https://businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/) and search it in **archive-product.php**
+ 88. ```remove_action( 'woocommerce_before_shop_loop', woocommerce_result_count', 20 );```
+ 89. ```remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );``` [*know more*](https://businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/)
+
 

@@ -131,12 +131,6 @@ set_post_thumbnail_size(300, 200, true); //4 parameters we can pass
 add_image_size('myFeaturedImage', 1360, 768, true);
 
 
-// REMOVE THE BREADCURMS
-function woo_remove_breadcurms(){
-    remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); 
-}
-add_action('init', 'woo_remove_breadcurms');
-
 
 
 
@@ -151,6 +145,54 @@ add_filter('loop_shop_columns', 'loop_columns_3');
 
 
 
+
+
+
+// REMOVE THE BREADCURMS
+function woo_remove_breadcurms(){
+    remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); 
+}
+add_action('init', 'woo_remove_breadcurms');
+
+
+
+
+
+
+
+
+
+//CHANGE UL LI OF BREADCRUMS DEFAULT
+// https://docs.woocommerce.com/document/customise-the-woocommerce-breadcrumb/
+function ecom_woocommerce_breadcrum(){
+    return array(
+        'delimiter' => ' &#47; ',
+        'wrap_before' => '<div class="breadcrumb-inner"><ul class="list-inline list-unstyled">',
+        'wrap_after' => '</ul></div>',
+        'before' => ' ',
+        'after' => ' ',
+        'home' => _x('Home', 'breadcrum', 'woocommerce')
+    );
+}
+add_filter('woocommerce_breadcrumb_defaults', 'ecom_woocommerce_breadcrum');
+
+
+
+
+
+// REMOVE WORDERING 
+function woo_remove_ordering(){
+    remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+}
+add_action('init', 'woo_remove_ordering');
+
+
+//Showing 1–12 of 17 results WILL BE GONE
+// REMOVE RESULT 
+function woo_remove_result(){
+    remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 ); 
+}
+add_action('init', 'woo_remove_result');
 
 
 ?>

@@ -27,3 +27,10 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+
+
+.woocommerce ul.products li.product .price ins{
+    float: left;
+    margin-right: 10px;
+    text-decoration: none;
+}
