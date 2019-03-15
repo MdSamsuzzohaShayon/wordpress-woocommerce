@@ -140,7 +140,7 @@
  84. Change breadcurmb default from **functions.php** add a filter [*know more*](https://docs.woocommerce.com/document/customise-the-woocommerce-breadcrumb/)
  85. to remove header title shop from **archive-product** make this peremeters false or comment those lines
  ```<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>```
- 86. to remove ![showing result and sort](img/sort_result/PNG)
+ 86. to remove ![showing result and sort](/img/sort_result/PNG)
  87. [*find visual hook guide*](https://businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/) and search it in **archive-product.php**
  88. ```remove_action( 'woocommerce_before_shop_loop', woocommerce_result_count', 20 );```
  89. ```remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );``` [*know more*](https://businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/)
