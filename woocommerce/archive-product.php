@@ -204,7 +204,19 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_no_products_found' );
 }
+?>
 
+
+
+<div class="clearfix filters-container">
+    <?php ecom_pagination(); ?>
+</div>
+
+
+
+
+
+<?php
 /**
  * Hook: woocommerce_after_main_content.
  *

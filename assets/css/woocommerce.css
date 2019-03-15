@@ -1,6 +1,6 @@
 .woocommerce ul.products li.product .button {
     /* background: blue; */
-    background: rgb(0, 206, 0);
+    background: rgb(155, 0, 194);
     color: white;
     margin-top: 0;
     line-height: 19px;
@@ -23,7 +23,7 @@
     color: black;
 }
 .woocommerce ul.products li.product .onsale {
-    background: rgb(0, 194, 0);
+    background: rgb(0, 194, 49);
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -34,3 +34,19 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+
+.next .page-numbers{
+    display: inline-block;
+    /* font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit; */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    padding: 0 5px !important; 
+}
+.next .page-numbers:hover{
+    background-color: rgb(225, 0, 255);
+    color: aliceblue !important;
+}
+

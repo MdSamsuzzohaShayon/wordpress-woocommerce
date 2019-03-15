@@ -21,7 +21,7 @@ function themeslug_enqueue_style() {
 
     
     wp_enqueue_style( 'font-awesome-css', get_theme_file_uri("/assets/css/font-awesome.css"), array(), 'v1.0.0' ); 
-    wp_enqueue_style( 'woocommerce-css', get_theme_file_uri("/assets/css/woocommerce.css"), array(), 'v1.0.0' ); 
+    wp_enqueue_style( 'woo-commerce-css', get_theme_file_uri("/assets/css/woocommerce.css"), array(), 'v1.0.0' ); 
 
 
     wp_enqueue_style( 'stylesheet', get_stylesheet_uri());  //<!-- THIS IS FOR STYLE.CSS-->
