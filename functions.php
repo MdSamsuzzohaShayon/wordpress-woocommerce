@@ -232,4 +232,66 @@ function ecom_pagination(){
 }
 
 
+
+
+// PRODUCT PER PAGE SHOW DROP DOWN
+function ecom_catalog_page_ordering(){
+    ?>
+
+
+    <?php echo '<div class="lbl-cnt"> <span class="lbl"> Items Per Page: '?>
+        <form action="" method="POST" name="results" class="woocommerce-ordering">
+            <select name="woocommerce-sort-by-colums" id="woocommerce-sort-by-colums" class="sortBy" onchange="this.form.submit();">
+    
+    <?php
+    if (isset($_POST['woocommerce-sort-by-columns']) && (($_COOKIE['shop_pageResults'] <> $_POST['woocommerce-sort-by-columns']))){
+        $numberOfProductsPerPage = $_POST['woocommerce-sort-by-columns'];
+    }else{
+        $numberOfProductsPerPage = $_COOKIE['shop_pageResults'];
+    }
+
+
+
+    $shopCatalog_orderby = apply_filter('woocommerce_sortby_page', array(
+        '20'    => __('20', 'woocommere'),
+        '-1'    => __('All', 'woocommere'),
+    ));
+
+
+
+
+    foreach($shopCatalog_orderby as $sort_id => $sort_name)
+        echo '<option value="' . $sort_id . '" ' . selected($numberOfProductsPerPage, $sort_id, true) . '>' . $sort_name . '</option>';
+?>
+
+            </select>
+        </form>
+
+<?php echo ' </span>' ?>
+
+<?php 
+}
+
+
+
+
+// SET COOKIE IF NEED
+function dl_sort_by_page($count){
+    if(isset($_COOKIE['shop_pageResults'])){
+        $count = $_COOKIE['shop_pageResults'];
+    }
+    if(isset($_POST['woocommerce-sort-by-columns'])){
+        setCookie('shop_pageResults', $_PAGE['woocommerce-sort-by-columns'], time()+1209600, '/', 'www.your-domain-goes-here.com',false);
+        $count = $_POST['woocommerce-sort-by-columns'];
+    }
+    return $count;
+}
+add_filter('loop_shop_per_page', 'dl_sort_by_page')
+
+
+}
+
+
+
+
 ?>

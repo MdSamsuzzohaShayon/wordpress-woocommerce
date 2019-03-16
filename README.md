@@ -151,3 +151,8 @@
  91. [*add custom pagination*](https://github.com/woocommerce/woocommerce/blob/master/templates/loop/pagination.php) from **functions.php** created a function but don't `add_action` or `add_filter` this is diffrent function . Copy the function name and paste in place of inbuilt pagination from **archive-product.php**
 
 
+ ## [product per page](https://docs.woocommerce.com/document/change-number-of-products-displayed-per-page/)
+
+ 
+
+
