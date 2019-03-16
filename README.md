@@ -153,6 +153,7 @@
 
  ## [product per page](https://docs.woocommerce.com/document/change-number-of-products-displayed-per-page/)
 
- 92. create two new function in **functions.php** 
+ 92. create two new function in **functions.php**  `ecom_catalog_page_ordering();` | `dl_sort_by_page();`
+ 93. paste hose function in **archive-product.php** 
 
 

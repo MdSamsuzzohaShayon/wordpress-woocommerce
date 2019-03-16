@@ -106,7 +106,8 @@ do_action( 'woocommerce_before_main_content' );
             </div>
             <!-- /.col -->
             <div class="col col-sm-3 col-md-6 no-padding">
-                <div class="lbl-cnt"> <span class="lbl">Show</span>
+                <?php ecom_catalog_page_ordering(); ?>
+                <!-- <div class="lbl-cnt"> <span class="lbl">Show</span>
                     <div class="fld inline">
                         <div class="dropdown dropdown-small dropdown-med dropdown-white inline">
                             <button data-toggle="dropdown" type="button" class="btn dropdown-toggle">
@@ -125,8 +126,7 @@ do_action( 'woocommerce_before_main_content' );
                             </ul>
                         </div>
                     </div>
-                    <!-- /.fld -->
-                </div>
+                </div> -->
                 <!-- /.lbl-cnt -->
             </div>
             <!-- /.col -->

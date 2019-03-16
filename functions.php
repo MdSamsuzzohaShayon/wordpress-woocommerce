@@ -241,7 +241,7 @@ function ecom_catalog_page_ordering(){
 
     <?php echo '<div class="lbl-cnt"> <span class="lbl"> Items Per Page: '?>
         <form action="" method="POST" name="results" class="woocommerce-ordering">
-            <select name="woocommerce-sort-by-colums" id="woocommerce-sort-by-colums" class="sortBy" onchange="this.form.submit();">
+            <select name="woocommerce-sort-by-columns" id="woocommerce-sort-by-columns" class="sortBy" onchange="this.form.submit()">
     
     <?php
     if (isset($_POST['woocommerce-sort-by-columns']) && (($_COOKIE['shop_pageResults'] <> $_POST['woocommerce-sort-by-columns']))){
@@ -286,10 +286,8 @@ function dl_sort_by_page($count){
     }
     return $count;
 }
-add_filter('loop_shop_per_page', 'dl_sort_by_page')
+add_filter('loop_shop_per_page', 'dl_sort_by_page');
 
-
-}
 
 
 
