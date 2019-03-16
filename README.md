@@ -153,6 +153,6 @@
 
  ## [product per page](https://docs.woocommerce.com/document/change-number-of-products-displayed-per-page/)
 
- 
+ 92. create two new function in **functions.php** 
 
 
