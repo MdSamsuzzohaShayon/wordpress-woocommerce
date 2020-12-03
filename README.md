@@ -2,7 +2,9 @@
 
 [Create a basic templete](https://codex.wordpress.org/Theme_Development#Basic_Templates)
 
- ![preview](Woocommerce website.jpg)
+
+  ![image](preview.jpg)
+
 
  1. create a style.css [comment the details there](https://codex.wordpress.org/Theme_Development)
  2. Thembnail of website name **screenshot.png** 
